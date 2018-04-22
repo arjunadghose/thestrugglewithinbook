@@ -1,0 +1,933 @@
+/* 
+Theme Name: Responsive Child Theme
+Theme URI: http://cyberchimps.com/guide/child-theme-example/
+Description: Responsive Child Theme
+Template: responsive
+Version: 1.0.0
+Author: CyberChimps
+Author URI: https://cyberchimps.com/
+License: GNU General Public License
+License URI: license.txt
+
+*/
+
+/* =Start From Here
+-------------------------------------------------------------- */
+
+.home small {
+	font-size:.73em;
+}
+ul {
+	margin:0;
+	padding:0;
+	margin-left:13px;
+}
+a {
+	transition: color .2s;
+}
+.winds-divine-melody-page.message a {
+	color:#f38796;
+}
+.winds-divine-melody-page.message a:hover,
+a:hover {
+	color:#A0BDDE;
+}
+h5,
+a,
+.pink,
+.home h2,
+.title-search-results span,
+#content-search .title-404 {
+	color:#f38796;
+}
+.green,
+.title-search-results {	color:#52855a;}
+.blue a {
+	color:blue;
+	text-decoration:underline;
+}
+h4,
+.light-blue {
+	color:#A0BDDE;
+}
+.title-archive {
+color:#BE8682;
+}
+.page-template-landing-page .post-title,
+.page-template-landing-page #header,
+.page-template-landing-page #footer {
+	display:none;
+}
+#logo {
+	background-repeat:no-repeat;
+	background-position:left 23px;
+	background-size:67px;
+	padding-left:72px;
+	box-sizing:border-box;
+}
+#logo-lotus {
+	width:81px;
+	float:left;
+	position:relative;
+	margin-left:-63px;
+	left:-9px;
+	top:18px;"
+}
+.site-name {
+	text-align:left;
+	margin-bottom:-9px;
+}
+.site-name a {
+	font-size:72%;
+	color:#A0BDDE;
+}
+.site-description {
+	line-height:18px;
+	text-align:left;
+	margin-left:3px;
+	margin-bottom:16px;
+	max-width:540px;
+	position:relative;
+	z-index:12;
+}
+.site-description,
+.light-light-blue {
+	color:#D6E4E6;
+}
+#menu-top-menu.menu,
+#responsive_current_menu_item {
+	background-image:none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#52855a+0,52855a+42,f38796+100 */
+background: rgb(82,133,90); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(82,133,90,1) 0%, rgba(82,133,90,1) 42%, rgba(243,135,150,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(82,133,90,1) 0%,rgba(82,133,90,1) 42%,rgba(243,135,150,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(82,133,90,1) 0%,rgba(82,133,90,1) 42%,rgba(243,135,150,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52855a', endColorstr='#f38796',GradientType=0 ); /* IE6-9 */
+}
+#menu-top-menu.menu .current-menu-item a {
+	background-image:none;
+	background:none;
+}
+#menu-top-menu.menu a:hover {
+	background-image:none;
+	background-color:#f38796;
+}
+.home h1.entry-title,
+.page h1.entry-title {
+	color:#1c48a6;
+}
+.home #wrapper {
+	position:relative;
+}
+.home h2 {
+	font-size:1.55em;
+}
+.home h1.entry-title,
+.home h2 {
+	text-align:center;
+}
+.first-line {
+	text-indent:27px;
+}
+.home .post-meta {
+	display:none;
+}
+
+/**** Front Page ****/
+
+.home #wrapper {
+	padding:0;
+}
+.home #content-full {
+	margin-top:0;
+}
+#homeHeader {
+	background-color:transparent;
+	position:relative;
+	top:0px;
+	left:-1px;
+	height:181px;
+	background-image:none;
+	background-size:170px;
+	width:100.27%;
+	background-repeat:no-repeat;
+	background-position:right top;
+	border-radius:6px;
+	overflow:visible;
+	display:none;
+}
+#haddawayQuote {
+	width:270px;
+	color:#fff;
+	position:absolute;
+	top:27px;
+	left:360px;
+	font-family:serif;
+	font-style:italic;
+	display:none;
+	font-size:115%;
+}
+.write-upContainer {
+	background:#f7edee;
+	font-size:115%;
+	padding:13px;
+	line-height:1.4em;
+	border-radius:4px;
+	position:relative;
+	box-sizing:border-box;
+}
+.write-upContainer.top {
+	width:100%;
+	position:relative;
+	top:-22px;
+	left:0;
+}
+#theStruggleWithinBook {
+	position:relative;
+	top:-57px;
+	width:100%;
+	margin-bottom:34px;
+}
+.included {
+	display:none;
+	font-weight:bold;
+	position:relative;
+	color:#52855a;
+	line-height:1.6em;
+	text-shadow: 1px 1px 1px #f38796;
+	letter-spacing:1px;
+}
+.included li {
+	margin-bottom:9px;
+}
+.included.mobile {
+	display:block;
+	width:85%;
+	top:-110px;
+	right:-23px;
+	font-size:127%;
+}
+.write-upContainer.top.large-mobile {
+	display:none;
+}
+#topForm {
+	position:relative;
+	top:-150px;
+	z-index:5;
+}
+.write-upContainer.middle {
+	position:relative;
+	top:-150px;
+}
+.write-upContainer.bottom {
+	display:none;
+	float:left;
+	width:100%;
+	top:183px;
+}
+.midSectionMoveUp {
+	position:relative;
+	top:-331px;
+}
+#lotusFlowerContainer {
+	max-width:340px;
+	min-width:200px;
+	text-align:center;
+	position:relative;
+	top:170px;
+	margin:0 auto;
+}
+#lotusFlowerImage {
+	max-width:100%;
+	margin-bottom:-15px;
+}
+.imageText {
+	font-style:italic;
+	color:#1c48a6;
+	font-size:94%;
+	max-width:100%;
+	margin:0 auto;
+}
+.lowerMidSectionMoveUp {
+	position:relative;
+	top:-27px;
+}
+.home h1.entry-title {
+	display:none;
+}
+h1.mainTitle {
+	font-size:250%;
+	position:relative;
+	top:207px;
+	z-index:2;
+	text-align:center;
+	color:#1c48a6;
+	clear:both;
+}
+#theFirst2700 {
+	position:relative;
+	top:200px;
+	clear:right;
+}
+.blockquoteRight {
+	float:right;
+	color:#5274b7;
+	width:100%;
+	border-left:9px solid #f4b5bd;
+	background-color:#D6E4E6;
+	padding-top:9px;
+	box-sizing:border-box;
+	position:relative;
+	top:193px;
+}
+#ckgContainer {
+	max-width:400px;
+	min-width:200px;
+	text-align:center;
+	position:relative;
+	top:182px;
+	margin:0 auto;
+}
+#ckgImage {
+	max-width:100%;
+	margin-bottom:-15px;
+}
+.blockquoteLeft {
+	float:left;
+	color:#fff;
+	width:100%;
+	border-left:9px solid #A0BDDE;
+	background-color:#f4b5bd;
+	padding-top:9px;
+	clear:left;
+	position:relative;
+	top:168px;
+	box-sizing:border-box;
+}
+#blurb {
+	text-align:center;
+	line-height:1.9em;
+	padding:22px;
+	background-color:#f2f4f4;
+	border-radius:5px;
+	position:relative;
+	top:159px;
+	width:100%;
+	clear:both;
+	float:right;
+	box-sizing:border-box;
+}
+#bottomForm {
+	position:relative;
+	top:149px;
+	float:right;
+}
+.fb-like.front-page,
+.twitter-share.front-page {
+	position:relative;
+	top:165px;
+	left:20px;
+	margin-right:12px;
+	float:right;
+}
+.twitter-share.front-page  {
+	clear:both;
+	margin-right:31px;
+	top:132px;
+}
+#post-2652 {
+	
+}
+.home h6#comments,
+.post-edit,
+.commentlist,
+#respond {
+	clear:right;
+	position:relative;
+	top:-180px;
+}
+
+/**** Blog ****/
+
+.blog h2.entry-title a,
+.archive h2.entry-title a,
+.search-results h2.entry-title a,
+.search-results h1.entry-title a {
+	color:#52855a;
+}
+.blog h2.entry-title a:hover,
+.archive h2.entry-title a:hover,
+.search-results h2.entry-title a:hover,
+.search-results h1.entry-title a:hover {
+	text-decoration:underline;
+}
+.breadcrumb-current {
+	color:#52855a;
+}
+h1.entry-title {
+	color:#f38796;
+}
+.post .chapter-image {
+	margin-bottom:18px;
+}
+.widget-title h3 {
+	color:#52855a;
+}
+#searchform input[type="text"] {
+	color:#1c48a6;
+}
+#searchform input[value="Go"] {
+	color:#f38796;
+}
+::-webkit-input-placeholder {
+   color:#a7d1ad;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color:#a7d1ad;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#a7d1ad; 
+}
+:-ms-input-placeholder {  
+   color:#a7d1ad;  
+}
+#recent-posts-8 li a,
+#menu-about-what-happened-to-my-daughter li a {
+	color:#A0BDDE;
+}
+#recent-posts-8 li a:hover,
+#menu-about-what-happened-to-my-daughter li a:hover {
+	color:#1c48a6;
+	text-decoration:underline;
+}
+#recaptcha {
+	position:relative;
+	
+}
+.g-recaptcha {
+    transform:scale(0.886);
+    transform-origin:0 0;
+}
+@media (min-width:43em) {
+	
+#recaptcha {
+	 width:270px;
+	right:0;
+}
+.g-recaptcha {
+    transform:scale(0.893);
+    transform-origin:0 0;
+}
+
+}
+.post-data,
+.post-data a {
+	color:#D6E4E6;
+}
+.page-id-46 .post-entry li a { /* Twitter account link */
+	color:#52855a;
+}
+.page-id-46 .post-entry li a:hover {
+	text-decoration:underline;
+}
+.header-w-margin-above {
+	margin-top:36px;
+}
+.wpcf7-form {
+	width:250px;
+}
+.wpcf7-form label {
+	color:#D6E4E6;
+}
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+	color:#1c48a6;
+	width:250px;
+}
+.wpcf7-form input[type="submit"] {
+	color:#f38796;
+	float:right;
+}
+.wpcf7-response-output,
+.wpcf7-response-output.wpcf7-validation-errors,
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+	color:#f38796;
+	border:3px solid #f38796;
+	border-radius:3px;
+}
+
+/****** How to Become Sri Chinmoy's Disciple *****/
+
+}
+
+/****** Archive The Wind's Divine Melody *****/
+
+.archive.category-the-winds-divine-melody .breadcrumb-list {
+	display:none;
+}
+.category-the-winds-divine-melody h6.title-archive {
+	display:none;
+}
+.category-the-winds-divine-melody h1#the-winds-divine-melody-title {
+	color:#52855a;
+}
+.category-the-winds-divine-melody h6 {
+	color:#f38796;
+	line-height:1.5em;
+	letter-spacing:.005em;
+}
+.archive #post-2392 {
+	background-image:url(http://www.thestrugglewithinbook.com/wp-content/uploads/2017/07/blog-catagory-border-bottom-1.png);
+	background-repeat:repeat-x;
+	background-size:18px;
+	padding-top:7px;
+	margin-top:27px;
+}
+h3.the-next-chapter {
+	float:right;
+	text-align:right;
+	max-width:450px;
+	position:relative;
+	top:-48px;
+	display:none;
+}
+
+/****** Follow This Blog Ad ******/
+
+.follow-this-blog-ad {
+	margin:10px 0;
+	background-color:#F9F4F5;
+	border:1px dashed #A0BDDE;
+	border-radius:5px;
+	padding:0 9px;
+	overflow:hidden;
+	display:none;
+}
+.follow-this-blog-ad .ad-text {
+	max-width:98%;
+	width:98%;
+	padding-bottom:9px;
+	margin-top:-9px;
+	float:none;
+}
+.follow-this-blog-ad .ad-image {
+	float:none;
+	margin-top:9px;
+	padding-bottom:9px;
+}
+.follow-this-blog-ad .ad-image img {
+	width:220px;
+}
+.next-page-link {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.next-page-link .left,
+.next-page-link .right {
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-bottom:15px;
+	max-width:45%;
+}
+.next-page-link .right {
+	float:right;
+}
+.twitter-icon {
+	color:#f38796;
+}
+/* li.twitter-icon {
+	display:block !important;
+	width:30px;
+	height:30px;
+	background-image:url('http://www.thestrugglewithinbook.com/wp-content/uploads/2017/01/1485288648_square-twitter.png');
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-size:contain;
+	float:right;
+}
+
+li.twitter-icon a {
+	display:block !important;
+	width:30px;
+	height:30px
+} */
+@media (min-width: 329px) {
+	.fb-like.front-page {
+		margin-right:30px;
+	}
+	.twitter-share.front-page  {
+		margin-right:46px;
+	}
+}
+@media (min-width: 415px) {
+	#homeHeader {
+		display:block;
+		background-color:#f38796;
+		background-image:url(http://www.thestrugglewithinbook.com/wp-content/uploads/2017/11/arjuna-d-ghose.png);
+	}
+	#theStruggleWithinBook {
+		top:-223px;
+		width:58%;
+		float:left;
+		z-index:4;
+		margin-bottom:-183px;
+	}
+	.write-upContainer.top.small-mobile {
+		display:none;
+	}
+	.write-upContainer.top.large-mobile {
+		display:block;
+	}
+	.write-upContainer.top {
+		top:-56px;
+	}
+	.included.mobile {
+		top:-76px;
+	}
+	#topForm {
+		top:-119px;
+	}
+	.write-upContainer.middle {
+		top:-119px;
+	}
+	.midSectionMoveUp {
+		top:-298px;
+	}
+}
+@media (min-width: 430px) {
+	.fb-like.front-page {
+		left:-65px;
+	}
+	.twitter-share.front-page  {
+		top:76px;
+	}
+}
+/* (554px wide and up) */
+@media (min-width: 554px) {
+	.follow-this-blog-ad .ad-title {
+		max-width:72%;
+	}
+	.follow-this-blog-ad .ad-text {
+		max-width:58%;
+		float:left;
+	}
+	.follow-this-blog-ad .ad-image {
+		float:right;
+		margin-top:-85px;
+	}
+	.follow-this-blog-ad .ad-image img {
+		width:160px;
+	}
+	.fb-like.front-page {
+		left:-75px;
+	}
+	.twitter-share.front-page  {
+		top:79px;
+	}
+}
+/* (609px wide and up) */
+@media (min-width: 609px) {
+	#logo {
+		background-position:3px 17px;
+		background-size:65px;
+		padding-left:73px;
+	}
+	.site-description {
+		line-height:22px;
+		margin-bottom:9px;
+	}
+	#header #top-widget {
+		margin-top:-28px;
+		margin-bottom:15px;
+	}	
+	.write-upContainer.bottom {
+		top:182px;
+		display:block;
+	}
+	.lowerMidSectionMoveUp {
+		top:1px;
+	}
+	.home h6#comments,
+	.post-edit,
+	.commentlist,
+	#respond {
+		clear:right;
+		position:relative;
+		top:-120px;
+	}
+}
+@media (min-width: 624px) {
+	#theStruggleWithinBook {
+		margin-bottom:-156px;
+	}
+	#topForm {
+		top:-117px;
+	}
+	.write-upContainer.middle {
+		top:-117px;
+	}
+}
+@media (min-width: 720px) {
+	#theStruggleWithinBook {
+		width:56%;
+	}
+	.write-upContainer.top {
+		width:100%;
+	}
+	.included.mobile {
+		margin:37px 0;
+	}
+}
+/* (768px wide and up) */
+@media (min-width: 768px) { 
+	#logo {
+		background-position:3px center;
+		background-size:81px;
+		padding-left:94px;
+	}
+	#logo-lotus {
+		width:81px;
+		float:left;
+		margin-left:-84px;
+		position:relative;
+		left:-9px;
+		top:18px;"
+	}
+	#menu-top-menu.menu .current-menu-item a { 
+		background-image:none;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor			/#52855a+0,52855a+42,f38796+100 */
+		background: rgb(82,133,90); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(82,133,90,1) 0%, rgba(82,133,90,1) 42%, rgba(243,135,150,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(82,133,90,1) 0%,rgba(82,133,90,1) 42%,rgba(243,135,150,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(82,133,90,1) 0%,rgba(82,133,90,1) 42%,rgba(243,135,150,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52855a', endColorstr='#f38796',GradientType=0 ); /* IE6-9 */
+	}
+	.site-name {
+		margin-bottom:13px;
+	}
+	.site-name a {
+		font-size:100%;
+	}
+	.site-description {
+		margin-top:-5px;
+	}
+	.wpcf7-form {
+		width:351px;
+	}
+	.wpcf7-form input[type="text"],
+	.wpcf7-form input[type="email"],
+	.wpcf7-form textarea {
+		width:351px;
+	}
+	#haddawayQuote {
+		display:block;
+	}
+	#theStruggleWithinBook {
+		width:351px;
+	}
+	.write-upContainer {
+		font-size:130%;
+	}
+	.write-upContainer.top {
+		width:81%;
+		left:0;
+	}
+	.included.mobile {
+		font-size:136%;
+		right:-42px;
+	}
+	.write-upContainer.middle {
+		width:30%;
+		float:right;
+	}
+	#topForm {
+		top:-106px;
+		left:20px;
+		clear:left;
+		float:left;
+	}
+	.midSectionMoveUp {
+		top:-208px;
+		clear:left;
+	}
+	#lotusFlowerContainer {
+		float:right;
+		right:20px;
+		clear:both;
+	}
+	h1.mainTitle {
+		top:200px;
+	}
+	#theFirst2700 {
+		top:193px;
+	}
+	.write-upContainer.bottom {
+		top:180px;
+		width:47%;
+	}
+	.blockquoteRight {
+		top:191px;
+	}
+	#ckgContainer {
+		top:180px;
+	}
+	.blockquoteLeft {
+		top:166px;
+	}
+	#blurb {
+		top:157px;
+	}
+	#bottomForm {
+		top:147px;
+	}
+	.fb-like.front-page {
+		top:149px;
+	}
+	.twitter-share.front-page  {
+		top:151px;
+	}
+}
+@media (min-width: 866px) {
+	.write-upContainer.middle {
+		width:35%;
+		right:18px;
+		margin-bottom:38px;
+	}
+	.included {
+		display:block;
+	}
+	.included.mobile {
+		display:none;
+	}
+	.included.upper {
+		top:-45px;
+		float:right;
+		right:21px;
+		width:36%;
+		font-size:135%;
+		margin-bottom:105px;
+	}
+	.included.lower {
+		top:175px;
+		font-size:160%;
+		line-height:1.6em;
+		width:350px;
+		left:43px;
+		margin-bottom:59px;
+	}
+	#topForm {
+		top:-56px;
+		margin-bottom:22px;
+	}
+	#lotusFlowerContainer {
+		top:110px;
+	}
+	.write-upContainer.bottom {
+		top:164px;
+	}
+	.midSectionMoveUp {
+		top:-210px;
+	}
+	.lowerMidSectionMoveUp {
+		top:-49px;
+		clear:both;
+	}
+}
+@media (min-width: 950px) { 
+	.included.upper {
+		right:33px;
+	}
+	.write-upContainer.middle {
+		/* top:-184px; */
+	}
+	#lotusFlowerContainer {
+		top:108px;
+	}
+	.included.lower {
+		left:58px;
+	}
+	.write-upContainer.bottom {
+		top:175px;
+		width:52%;
+		float:left;
+	}
+	.midSectionMoveUp {
+		top:-210px;
+	}
+	.blockquoteRight {
+		width:45%;
+		right:20px;
+		top:211px;
+		box-sizing:content-box;
+	}
+	#ckgContainer {
+		float:left;
+		left:20px;
+		top:226px;
+	}
+	.blockquoteLeft {
+		width:47%;
+		box-sizing:content-box;
+		top:211px;
+		left:20px;
+	}
+	#blurb {
+		top:-150px;
+		width:43%;
+		right:20px;
+	}
+	#bottomForm {
+		position:relative;
+		top:-118px;
+	}
+	h1.mainTitle {
+		top:202px;
+	}
+	#theFirst2700 {
+		top:199px;
+	}
+	.fb-like.front-page {
+		top:-87px;
+	}
+	.twitter-share.front-page  {
+		top:-152px;
+	}
+	.home h6#comments,
+	.post-edit,
+	.commentlist,
+	#respond {
+		clear:right;
+		position:relative;
+		top:-350px;
+	}
+}
+@media (min-width: 980px) { 
+	.included.upper {
+		right:60px;
+	}
+	.included.lower {
+		bottom:-137px;
+	}
+}
+@media (min-width: 990px) { 
+	h3.the-next-chapter { 
+		left:81px;
+		top:-36px;
+	}
+	#blurb {
+		top:-143px;
+	}
+	#bottomForm {
+		position:relative;
+		top:-97px;
+	}
+}
+@media (min-width: 1020px) { 
+	.write-upContainer.middle {
+		width:37%;
+	}
+}
